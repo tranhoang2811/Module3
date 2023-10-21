@@ -1,0 +1,50 @@
+html, body {
+   background-color: #f4b238;
+}
+
+.container {
+    width: fit-content;
+}
+
+.content {
+    width: 734px;
+}
+
+header {
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+header div p{
+    margin: 0;
+}
+
+.section-title {
+    color: rgb(161, 14, 161);
+}
+
+main {
+    display: flex;
+    gap: 8px;
+}
+
+.side-bar {
+    background-color: #57df53;
+    width: 240px;
+    width: fit-content;
+}
+
+.side-bar ul {
+    list-style-type: none;
+    padding: 0;
+    width: fit-content;
+}
+
+.side-bar * {
+    width: fit-content;
+}

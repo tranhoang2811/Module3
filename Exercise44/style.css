@@ -1,0 +1,36 @@
+header {
+    text-align: center;
+}
+
+.container {
+    width: 47%;
+}
+
+.introduction {
+    display: flex;
+}
+
+.introduction p {
+    width: 480px;
+    text-indent: 52px;
+}
+
+.introduction ul {
+    box-sizing: border-box;
+    background-color: #a5a511;
+    width: 228px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+main > p {
+    text-indent: 52px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    text-transform: uppercase;
+}

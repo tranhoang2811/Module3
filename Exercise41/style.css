@@ -1,0 +1,107 @@
+.container {
+    width: fit-content;
+}
+
+header {
+    background-color: #08467c;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+    height: 96px;
+}
+
+header img {
+    width: 500px;
+}
+
+header ul {
+    width: fit-content;
+    list-style: none;
+    display: flex;
+    gap: 6px;
+}
+
+header ul li a {
+    color: white;
+}
+
+header label {
+    color: #c08b18;
+    width: 180px;
+}
+
+header select {
+    width: 100%;
+}
+
+header .dropdown {
+    display: flex;
+}
+
+header ul li:not(:last-child)::after {
+    color: white;
+    content: " |";
+}
+
+main {
+    display: flex;
+}
+
+.side-bar {
+    background-color: #173c56;
+    width: 196px;
+}
+
+.side-bar ul {
+    color: white;
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.side-bar ul li {
+    width: fit-content;
+}
+
+.side-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    padding: 12px 0px 0px 16px;
+    width: 740px;
+}
+
+section h4 {
+    background-color: #dce7ed;
+    color: #426e85;
+    margin: 0;
+    padding: 8px 0px 2px 20px
+}
+
+section p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.image-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-group img {
+    flex: 1 0 calc(33.33% - 8px);
+    object-fit: cover;
+    height: 100px;
+    margin: 4px;
+}
+
+.back-link {
+    text-align: right;
+}
+
+.back-link a {
+    color: rgb(42, 152, 152);
+}

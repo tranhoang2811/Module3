@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    background-color: #efecde;
+    height: 100%;
+    display: block;
+}
+
+header {
+    height: 88px;
+    background-color: orange;
+}
+
+header h1 {
+    height: 100%;
+    color: white;
+}
+
+main {
+    display: flex;
+    column-gap: 12px;
+    padding: 12px 8px
+}
+
+.sidebar {
+    background-color: white;
+    width: 14%;
+    padding: 8px;
+    border: 1px solid blue;
+}
+
+.sidebar h4 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 4px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.sidebar ul li:hover a {
+    text-decoration: underline;
+    color: blue
+}
+
+.directory-container,
+.directory-container .directory-table {
+    width: 58%;
+}
+
+.directory-container .directory-table {
+    border-collapse: collapse;
+    border: 2px solid blue;
+}
+
+.directory-container .directory-table caption {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    color: blue;
+    margin-bottom: 12px;
+    letter-spacing: 4px;
+}
+
+.directory-table tr th {
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+}
+
+.directory-table tr td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px;
+}
+
+hr {
+    border: 1px solid blue;
+    /* margin: 8px 0; */
+}
+
+footer p {
+    text-align: center;
+}
+
+.directory-table tr td:nth-child(2),
+.directory-table tr td:nth-child(3) {
+    vertical-align: top;
+    width: 20%;
+}
+
+.directory-table th {
+    padding: 8px 0;
+}
+
+.box-container li:nth-child(1) {
+    background: #0f0fa9;
+}
+
+.box-container li:nth-child(2) {
+    background: blue;
+}
+
+.box-container li:nth-child(3) {
+    background: #125684;
+}
+
+.box-container li:nth-child(4) {
+    background: #1770ab;
+}
+
+.box-container li:nth-child(5) {
+    background: #2087cc;
+}
+
+.box-container li:nth-child(6) {
+    background: #3bb1ff;
+    margin-left: 6px;
+}
+
+.box-container {
+    display: flex;
+    width: fit-content;
+    gap: 8px
+}
+
+.box-container li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+header {
+    padding: 12px;
+}
+
+.box-container-group {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+header h1 {
+    display: inline;
+}
+
+span {
+    color: blue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}

@@ -1,0 +1,88 @@
+hr {
+    border: 1px solid orange;
+    margin: 0;
+}
+
+html,
+body,
+.container {
+    height: 100%;
+}
+
+.container {
+    width: fit-content;
+}
+
+header {
+    text-align: right;
+}
+
+header p {
+    background-color: orange;
+    color: white;
+    display: inline;
+    padding: 4px 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 100;
+    font-size: 48px;
+}
+
+main {
+    margin-top: 0;
+    display: flex;
+}
+
+main .side-bar {
+    background-image: url('./ex45/images/back.jpg');
+    background-repeat: repeat-y;
+    width: 200px;
+}
+
+.content {
+    margin-left: 8px;
+    width: 570px;
+}
+
+nav {
+    width: fit-content;
+}
+
+.side-bar ul {
+    margin-top: 0;
+    width: fit-content;
+}
+
+.section-title {
+    color: orange;
+}
+
+.section-content {
+    color: #d67539;
+}
+
+.list-section {
+    border: 3px solid orange;
+    width: fit-content;
+    float: right;
+    background-color: bisque;
+}
+
+.list-section h2 {
+    margin-top: 0;
+}
+
+.list-section ul {
+    padding-right: 8px;
+    width: 220px;
+}
+
+.footer {
+    color: orange;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0;
+}
+
